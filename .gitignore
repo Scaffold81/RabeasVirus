@@ -1,3 +1,9 @@
 /Logs
 /Library
 /Packages
+/.vs
+/obj
+*.csproj
+*.csproj
+*.csproj
+*.csproj

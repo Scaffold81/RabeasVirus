@@ -5,7 +5,8 @@
         None = 0,
         Start = 1,
         Main = 2,
-        Interstitial = 3,
-        MainGame = 4
+        Interstitial = 3, 
+        NewGameScene = 4,
+        MainGame = 5
     }
 }

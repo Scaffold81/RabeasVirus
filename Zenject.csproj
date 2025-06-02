@@ -67,10 +67,10 @@
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\CopyNonLazyBinder.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\SignalSubscription.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\PrefabProviders\PrefabProviderResource.cs" />
-    <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\Untyped\FactoryFromBinderUntyped.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder2.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\MethodMultipleProviderUntyped.cs" />
+    <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\Untyped\FactoryFromBinderUntyped.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Scripts\Ship\Ship.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\ScopeConcreteIdArgConditionCopyNonLazyBinder.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Finalizers\PrefabResourceBindingFinalizer.cs" />
@@ -185,9 +185,9 @@
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\GameObject\TransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Injection\LazyInject.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteBinderGeneric.cs" />
-    <Compile Include="Assets\Plugins\Zenject\Source\Providers\ScriptableObjectInstanceProvider.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorBindInfo.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder0.cs" />
+    <Compile Include="Assets\Plugins\Zenject\Source\Providers\ScriptableObjectInstanceProvider.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Util\CheatSheet.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Util\ActionInstaller.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\Conventions\ConventionBindInfo.cs" />
@@ -197,9 +197,9 @@
     <Compile Include="Assets\Plugins\Zenject\Source\Internal\Func.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Util\ProfileTimers.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\BindSignal\SignalCallbackWrapper.cs" />
-    <Compile Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerDamageHandler.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Main\SingletonMarkRegistry.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\BindingUtil.cs" />
+    <Compile Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerDamageHandler.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\DecoratorToChoiceFromBinder.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Player\PlayerHealthWatcher.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Factories\Pooling\IMemoryPool.cs" />
@@ -881,6 +881,10 @@
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>Assets\Packages\System.Reactive.Core.6.0.1\lib\netstandard2.0\System.Reactive.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -905,8 +909,16 @@
       <HintPath>Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>Assets\Packages\System.Reactive.Linq.6.0.1\lib\netstandard2.0\System.Reactive.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sirenix.Serialization.Config">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>Assets\Packages\System.Reactive.6.0.1\lib\netstandard2.0\System.Reactive.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">

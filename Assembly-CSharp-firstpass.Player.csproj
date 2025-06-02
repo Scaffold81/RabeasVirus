@@ -391,6 +391,10 @@
       <HintPath>Assets\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>Assets\Packages\System.Reactive.Core.6.0.1\lib\netstandard2.0\System.Reactive.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -407,8 +411,16 @@
       <HintPath>Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>Assets\Packages\System.Reactive.Linq.6.0.1\lib\netstandard2.0\System.Reactive.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sirenix.Serialization.Config">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>Assets\Packages\System.Reactive.6.0.1\lib\netstandard2.0\System.Reactive.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
@@ -961,6 +973,10 @@
       <Project>{ECD864CA-4FF9-DA92-5DAD-B6D7EAF7DF16}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Shared.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.Player.csproj">
+      <Project>{BB08AFF9-66FD-D8C0-54C1-E8E6BE6AECB0}</Project>
+      <Name>UniTask.TextMeshPro.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{8E7728E7-AA55-8308-4C34-FB38FD46E1C4}</Project>
       <Name>Unity.Timeline.Player</Name>
@@ -973,6 +989,10 @@
       <Project>{78C7E94C-2189-83E0-0E96-D6E72E1CAF69}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.Player.csproj">
+      <Project>{62E5BAD4-3167-C4D3-7861-F0BB09490969}</Project>
+      <Name>UniTask.Linq.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.Player.csproj">
       <Project>{685778B1-D921-8574-5633-C25282303AE4}</Project>
       <Name>Unity.RenderPipelines.GPUDriven.Runtime.Player</Name>
@@ -980,6 +1000,10 @@
     <ProjectReference Include="Unity.Collections.Player.csproj">
       <Project>{6D115166-4BC9-3F2F-BB9B-4DC0B6078F8A}</Project>
       <Name>Unity.Collections.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.Player.csproj">
+      <Project>{CFF42E95-D586-A84F-46C9-1AEFA4AE2323}</Project>
+      <Name>UniTask.DOTween.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.Player.csproj">
       <Project>{4B0F3F41-E376-328D-ACEA-2E7728C7B774}</Project>
@@ -1005,6 +1029,10 @@
       <Project>{86CA3113-071F-6834-B48D-6623CD997C0F}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.Player.csproj">
+      <Project>{FECA0602-FEBA-CAAF-44E4-D7A1CAC9C191}</Project>
+      <Name>UniTask.Addressables.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{FC5AE814-CDC9-58F8-5C27-95B3F5F11DE6}</Project>
       <Name>Unity.Burst.Player</Name>
@@ -1024,6 +1052,10 @@
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
       <Project>{878FEC94-25F0-A60A-FD08-C8C0C3167CBB}</Project>
       <Name>Unity.InputSystem.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Player.csproj">
+      <Project>{78A13962-2DCD-479B-4E3D-11F39FAE62DA}</Project>
+      <Name>UniTask.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.Player.csproj">
       <Project>{A497C191-A891-CA24-7065-DD6E134BFCFE}</Project>

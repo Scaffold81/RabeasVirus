@@ -167,8 +167,8 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\NUnitExtensions\Filters\AssemblyNameFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\NUnitExtensions\IAsyncTestAssemblyBuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\Utils\ITestRunCallback.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\Utils\StacktraceFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\Utils\TestRunCallbackAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\Assertions\Is.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@388540dd9ce6\UnityEngine.TestRunner\Utils\AssemblyProvider\IAssemblyLoadProxy.cs" />

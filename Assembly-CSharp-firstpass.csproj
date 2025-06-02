@@ -571,6 +571,10 @@
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>Assets\Packages\System.Reactive.Core.6.0.1\lib\netstandard2.0\System.Reactive.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -587,8 +591,16 @@
       <HintPath>Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>Assets\Packages\System.Reactive.Linq.6.0.1\lib\netstandard2.0\System.Reactive.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sirenix.Serialization.Config">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>Assets\Packages\System.Reactive.6.0.1\lib\netstandard2.0\System.Reactive.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
@@ -1189,9 +1201,9 @@
       <Project>{22F53F9E-7450-EF58-4EC8-EED34605B173}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{A7E3B70E-C054-34C1-DF77-BA7123474A5D}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{649E48C0-B6E7-995A-0A55-433C75D2F7AC}</Project>
+      <Name>UniTask.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{ABFB9322-EB37-42E7-BF39-22FA36BEFCBB}</Project>
@@ -1205,6 +1217,10 @@
       <Project>{E883915E-52DA-F206-E262-69D1066B25A5}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{A7E3B70E-C054-34C1-DF77-BA7123474A5D}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
       <Project>{BDEEFF47-CFC8-CA4B-E044-F2FAEE5FF109}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
@@ -1216,6 +1232,10 @@
     <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj">
       <Project>{ADC23079-FDEF-0CAB-FE24-DA4F4ABCECCD}</Project>
       <Name>Unity.Multiplayer.Center.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{DA0777D6-3FFC-6B93-E6E0-E59AA3DD5331}</Project>
+      <Name>UniTask.Linq</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{AE776601-1B81-0D78-C30D-D04E2EED2FA2}</Project>
@@ -1244,6 +1264,10 @@
     <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj">
       <Project>{86402FFD-7A8B-06F9-FDCA-3404AFAA71C2}</Project>
       <Name>Unity.Rendering.LightTransport.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{866945B4-1194-372C-E927-8327BD309520}</Project>
+      <Name>UniTask.DOTween</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
       <Project>{798A52D8-2689-D313-8B3C-5B9B968C4FF6}</Project>
@@ -1305,6 +1329,10 @@
       <Project>{FB4FB9A8-AD4A-EF8F-FD30-F5CE775A112A}</Project>
       <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{0D95D93E-FCAC-F36E-B443-28BDE2EF652B}</Project>
+      <Name>UniTask.Addressables</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{F71E6ED1-B300-5D77-3A08-71B02ECA56BF}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
@@ -1336,6 +1364,10 @@
     <ProjectReference Include="Unity.InputSystem.csproj">
       <Project>{198F76AB-4BC8-2862-02E2-692666E04C5E}</Project>
       <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{F8E7E900-8914-3EFF-8C5C-301FEAA8B3C7}</Project>
+      <Name>UniTask</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj">
       <Project>{EB37E781-FECE-935F-87D6-3C62956D4C72}</Project>

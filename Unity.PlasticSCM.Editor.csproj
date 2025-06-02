@@ -219,8 +219,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\Locks\LocksTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\Branch\BranchesSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\UI\Progress\ProgressControlsForDialogs.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\PendingChanges\Dialogs\DependenciesDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\ProjectWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\PendingChanges\Dialogs\DependenciesDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\PendingChanges\Dialogs\EmptyCommentDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\ExternalLink.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\Merge\Developer\MergeTreeView.cs" />
@@ -305,9 +305,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Configuration\CloudEdition\Welcome\WaitingSignInPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\Changesets\ChangesetsListHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\CreateWorkspace\Dialogs\RepositoriesListHeaderState.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\Diff\DiffSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Gluon\UpdateReport\ErrorListViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\CreateWorkspace\Dialogs\RepositoryExplorerDialog.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\Diff\DiffSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\VCSPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\Diff\MergeCategoryTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\History\SerializableHistoryTabState.cs" />

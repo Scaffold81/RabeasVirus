@@ -1,8 +1,6 @@
 using Game.Services;
-using Sirenix.OdinInspector;
-using System.Collections.Generic;
-using UnityEngine;
 using Zenject;
+
 namespace Game.Installers
 {
     public class ServicesInstaller : MonoInstaller
@@ -11,7 +9,8 @@ namespace Game.Installers
         {
             Container.BindInterfacesTo<SceneManagerService>().AsSingle().NonLazy();
             Container.BindInterfacesTo<SaveService>().AsSingle().NonLazy();
-                Container.BindInterfacesTo<MapService>().AsSingle().NonLazy();
+            Container.BindInterfacesTo<MapService>().AsSingle().NonLazy();
+            Container.BindInterfacesTo<UIPageService>().AsSingle().NonLazy();
         }
     }
 }

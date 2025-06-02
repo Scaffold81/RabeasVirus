@@ -63,52 +63,93 @@
   <ItemGroup>
     <Compile Include="Assets\Project\Scripts\Infrastructure\Installers\ServicesInstaller.cs" />
     <Compile Include="Assets\Project\Scripts\ScriptableObjects\LevelConfigRepositorySO.cs" />
+    <Compile Include="Assets\Project\Scripts\Services\UIPageService\UIPageService.cs" />
     <Compile Include="Assets\Project\Scripts\Services\ScenesService\SceneManagerService.cs" />
+    <Compile Include="Assets\Project\Scripts\Enums\UIId.cs" />
     <Compile Include="Assets\Project\Scripts\ScriptableObjects\LevelConfigSO.cs" />
+    <Compile Include="Assets\Project\Scripts\DataPrivders\UIDataProvider.cs" />
     <Compile Include="Assets\Project\Scripts\Enums\SaveSlotNames.cs" />
+    <Compile Include="Assets\Project\Scripts\UI\UIGameDifficultPage.cs" />
+    <Compile Include="Assets\Project\Scripts\DataPrivders\IDataProvider.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Project\Scripts\Services\ScenesService\ISceneManagerService.cs" />
+    <Compile Include="Assets\Project\Scripts\UI\UIMainPage.cs" />
     <Compile Include="Assets\Project\Scripts\Services\MapService\MapService.cs" />
+    <Compile Include="Assets\Project\Scripts\Infrastructure\Installers\ProvidersInstaller.cs" />
+    <Compile Include="Assets\Project\Scripts\UI\Common\IPageBase.cs" />
+    <Compile Include="Assets\Project\Scripts\UI\ISubscriber.cs" />
+    <Compile Include="Assets\Project\Scripts\UI\Common\PageBase.cs" />
     <Compile Include="Assets\Project\Scripts\Enums\SceneId.cs" />
     <Compile Include="Assets\Project\Scripts\Infrastructure\Installers\ProjectConfigsInstaller.cs" />
     <Compile Include="Assets\Project\Scripts\Services\SaveService\SaveSystem.cs" />
     <Compile Include="Assets\Project\Scripts\Services\SaveService\SaveService.cs" />
+    <Compile Include="Assets\Project\Scripts\Services\UIPageService\IUIPageService.cs" />
     <Compile Include="Assets\Project\Scripts\Controllers\LoadSceneController.cs" />
+    <Compile Include="Assets\Project\Scripts\DataPrivders\DataProviderBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\System.Threading.Channels.8.0.0\THIRD-PARTY-NOTICES.TXT" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Packages\System.ComponentModel.Annotations.5.0.0\lib\netstandard2.1\System.ComponentModel.Annotations.dll" />
     <None Include="Assets\Packages\R3.1.3.0\lib\netstandard2.1\R3.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Packages\System.Reactive.6.0.1\lib\netstandard2.0\System.Reactive.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\Packages\System.Reactive.Core.6.0.1\lib\netstandard2.0\System.Reactive.Core.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.6.0.0\THIRD-PARTY-NOTICES.TXT" />
     <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.6.0.0\LICENSE.TXT" />
     <None Include="Assets\Packages\Microsoft.Bcl.TimeProvider.8.0.0\THIRD-PARTY-NOTICES.TXT" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Packages\System.Reactive.Linq.6.0.1\lib\netstandard2.0\System.Reactive.Linq.dll" />
     <None Include="Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.xml" />
+    <None Include="Assets\Packages\System.Reactive.6.0.1\lib\netstandard2.0\System.Reactive.dll" />
     <None Include="Assets\Packages\ObservableCollections.R3.3.3.3\lib\netstandard2.1\ObservableCollections.R3.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\LICENSE.TXT" />
     <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.xml" />
     <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\THIRD-PARTY-NOTICES.TXT" />
     <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\Packages\System.ComponentModel.Annotations.5.0.0\LICENSE.TXT" />
+    <None Include="Assets\Packages\System.Reactive.Linq.6.0.1\lib\netstandard2.0\System.Reactive.Linq.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Packages\System.ComponentModel.Annotations.5.0.0\useSharedDesignerContext.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Packages\Microsoft.Bcl.TimeProvider.8.0.0\lib\netstandard2.0\Microsoft.Bcl.TimeProvider.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Packages\ObservableCollections.3.3.3\lib\netstandard2.1\ObservableCollections.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Packages\Microsoft.Bcl.TimeProvider.8.0.0\LICENSE.TXT" />
     <None Include="Assets\Packages\System.ComponentModel.Annotations.5.0.0\lib\netstandard2.1\System.ComponentModel.Annotations.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Packages\System.Threading.Channels.8.0.0\lib\netstandard2.1\System.Threading.Channels.xml" />
     <None Include="Assets\Packages\System.ComponentModel.Annotations.5.0.0\version.txt" />
     <None Include="Assets\Packages\ObservableCollections.R3.3.3.3\lib\netstandard2.1\ObservableCollections.R3.dll" />
     <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Packages\R3.1.3.0\lib\netstandard2.1\R3.dll" />
     <None Include="Assets\Packages\Microsoft.Bcl.TimeProvider.8.0.0\lib\netstandard2.0\Microsoft.Bcl.TimeProvider.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Packages\System.Threading.Channels.8.0.0\LICENSE.TXT" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.6.0.0\useSharedDesignerContext.txt" />
     <None Include="Assets\Packages\System.Threading.Channels.8.0.0\lib\netstandard2.1\System.Threading.Channels.dll" />
     <None Include="Assets\Packages\Microsoft.Bcl.TimeProvider.8.0.0\useSharedDesignerContext.txt" />
     <None Include="Assets\Packages\ObservableCollections.3.3.3\lib\netstandard2.1\ObservableCollections.xml" />
     <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Include="Assets\Packages\System.Reactive.Core.6.0.1\lib\netstandard2.0\System.Reactive.Core.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Packages\System.ComponentModel.Annotations.5.0.0\THIRD-PARTY-NOTICES.TXT" />
     <None Include="Assets\Packages\System.Threading.Channels.8.0.0\useSharedDesignerContext.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\useSharedDesignerContext.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -408,6 +449,10 @@
       <HintPath>Assets\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>Assets\Packages\System.Reactive.Core.6.0.1\lib\netstandard2.0\System.Reactive.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -424,8 +469,16 @@
       <HintPath>Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>Assets\Packages\System.Reactive.Linq.6.0.1\lib\netstandard2.0\System.Reactive.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sirenix.Serialization.Config">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>Assets\Packages\System.Reactive.6.0.1\lib\netstandard2.0\System.Reactive.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
@@ -982,6 +1035,10 @@
       <Project>{ECD864CA-4FF9-DA92-5DAD-B6D7EAF7DF16}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Shared.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.Player.csproj">
+      <Project>{BB08AFF9-66FD-D8C0-54C1-E8E6BE6AECB0}</Project>
+      <Name>UniTask.TextMeshPro.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{8E7728E7-AA55-8308-4C34-FB38FD46E1C4}</Project>
       <Name>Unity.Timeline.Player</Name>
@@ -989,10 +1046,6 @@
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{13939B67-0D43-C27C-27C7-A15B32CBE65F}</Project>
       <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.Player.csproj">
-      <Project>{BB08AFF9-66FD-D8C0-54C1-E8E6BE6AECB0}</Project>
-      <Name>UniTask.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
       <Project>{78C7E94C-2189-83E0-0E96-D6E72E1CAF69}</Project>
